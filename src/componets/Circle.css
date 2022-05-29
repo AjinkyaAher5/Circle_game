@@ -1,0 +1,41 @@
+.main {
+    text-align: center;
+    display: flex;
+  }
+ 
+  
+  .both{
+    width: 40%;
+    margin: 5%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    /* border: 1px solid red; */
+  }
+  .empty{
+    width: 500px;
+    height:400px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    border: 3px solid black;
+    
+  }
+  .allcircles{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .circle{
+    width:100px;
+    height:100px;
+    border:1px solid #ccc;
+    border-radius:50%;
+    /* border: 1px solid blue; */
+
+  }
+  .search{
+    margin-top: 18%;
+    /* border: 1px solid red; */
+  }
