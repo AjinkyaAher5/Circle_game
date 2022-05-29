@@ -8,10 +8,10 @@ export const Circle=()=>{
     const [circle, setcircle] = useState(Data);
   
     const handleAdd = () => {
-      const seectedcircle = circle.map((e) =>
+      const hidecircle = circle.map((e) =>
         e.id === Number(state) ? { ...e, status: false } : e
       );
-      setcircle(seectedcircle);
+      setcircle(hidecircle);
       setstate("")
     };
     const handleRemove = (id) => {
