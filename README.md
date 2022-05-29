@@ -15,9 +15,8 @@ got to https://circle-peach.vercel.app/
 
 ```
 
-```
 
-### Install npm packages
+### Install npm Packages
 ```bash
 npm install
 ```
